@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "YAML support for POI",
   "main": "index.js",
-  "files": ["index.js"],
+  "files": [
+    "index.js"
+  ],
   "scripts": {},
   "repository": "edus44/poi-preset-yaml",
   "author": "edus44",

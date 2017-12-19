@@ -5,6 +5,7 @@ Add YAML support
 ## Install
 
 ```bash
+npm i -D poi-preset-yaml
 yarn add poi-preset-yaml --dev
 ```
 
@@ -14,8 +15,8 @@ Activate it in config file `poi.config.js`:
 
 ```js
 module.exports = {
-  presets: [require("poi-preset-yaml")()]
-};
+  presets: [require('poi-preset-yaml')()],
+}
 ```
 
 ## License

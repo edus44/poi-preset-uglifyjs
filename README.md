@@ -15,7 +15,7 @@ Activate it in config file `poi.config.js`:
 
 ```js
 module.exports = {
-  presets: [require('poi-preset-uglifyjs')()],
+  presets: [require('poi-preset-uglifyjs')(pluginOptions)],
 }
 ```
 

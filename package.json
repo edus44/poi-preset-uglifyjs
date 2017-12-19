@@ -1,6 +1,6 @@
 {
   "name": "poi-preset-uglifyjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Replace minifying with UglifyJS v3 for POI",
   "main": "index.js",
   "files": ["index.js"],

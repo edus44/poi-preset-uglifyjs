@@ -1,0 +1,14 @@
+{
+  "name": "poi-preset-yaml",
+  "version": "1.0.0",
+  "description": "YAML support for POI",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {},
+  "repository": "edus44/poi-preset-yaml",
+  "author": "edus44",
+  "license": "MIT",
+  "dependencies": {
+    "yaml-loader": "^0.5.0"
+  }
+}

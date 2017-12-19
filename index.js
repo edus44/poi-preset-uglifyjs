@@ -1,16 +1,12 @@
-module.exports = () => {
+module.exports = pluginOptions => {
   return poi => {
     poi.extendWebpack(config => {
-      config.resolve.extensions.add('.yml').end()
-      config.module
-        .rule('yaml')
-        .test(/\.ya?ml?$/)
-        .use('json-loader')
-        .loader('json-loader')
-        .end()
-        .use('yaml-loader')
-        .loader('yaml-loader')
-        .end()
+      const UglifyJSPlugin = require('uglifyjs-webpack-plugin')
+
+      // do not use if `minimize` is off
+      if (config.plugins.has('minimize')) {
+        config.plugin('minimize').use(UglifyJSPlugin, [pluginOptions])
+      }
     })
   }
 }

@@ -1,14 +1,14 @@
 {
-  "name": "poi-preset-yaml",
-  "version": "1.0.1",
-  "description": "YAML support for POI",
+  "name": "poi-preset-uglifyjs",
+  "version": "1.0.0",
+  "description": "Replace minifying with UglifyJS v3 for POI",
   "main": "index.js",
   "files": ["index.js"],
   "scripts": {},
-  "repository": "edus44/poi-preset-yaml",
+  "repository": "edus44/poi-preset-uglifyjs",
   "author": "edus44",
   "license": "MIT",
   "dependencies": {
-    "yaml-loader": "^0.5.0"
+    "uglifyjs-webpack-plugin": "^1.1.4"
   }
 }

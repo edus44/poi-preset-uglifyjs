@@ -1,12 +1,12 @@
-# poi-preset-yaml
+# poi-preset-uglifyjs
 
-Add YAML support
+Replace minifying with UglifyJS v3
 
 ## Install
 
 ```bash
-npm i -D poi-preset-yaml
-yarn add poi-preset-yaml --dev
+npm i -D poi-preset-uglifyjs
+yarn add poi-preset-uglifyjs --dev
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ Activate it in config file `poi.config.js`:
 
 ```js
 module.exports = {
-  presets: [require('poi-preset-yaml')()],
+  presets: [require('poi-preset-uglifyjs')()],
 }
 ```
 
